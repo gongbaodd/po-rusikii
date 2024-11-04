@@ -6,11 +6,21 @@ import { Card } from "@/components/ui/card"
 
 // Sample flash card data
 const flashCards = [
-  { russian: 'Привет', english: 'Hello' },
-  { russian: 'Спасибо', english: 'Thank you' },
-  { russian: 'Пожалуйста', english: 'You\'re welcome' },
-  { russian: 'Да', english: 'Yes' },
-  { russian: 'Нет', english: 'No' },
+  { "russian": "хорошо", "english": "Good" },
+  { "russian": "плохо", "english": "bad" },
+  { "russian": "легко", "english": "easy" },
+  { "russian": "трудно", "english": "hard" },
+  { "russian": "интересно", "english": "interesting" },
+  { "russian": "скучно", "english": "boring" },
+  { "russian": "дёшево", "english": "cheap" },
+  { "russian": "дорого", "english": "expensive" },
+  { "russian": "холодно", "english": "cold" },
+  { "russian": "тепло", "english": "warm" },
+  { "russian": "жарко", "english": "hot" },
+  { "russian": "красиво", "english": "beautifully" },
+  { "russian": "Весело", "english": "Fun/cheerfully" },
+  { "russian": "опасно", "english": "dangerously" },
+  { "russian": "ужасно", "english": "terribly" }
 ]
 
 export default function FlashCardApp() {
