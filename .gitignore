@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.yarn
+.pnp.loader.mjs
+.pnp.cjs
