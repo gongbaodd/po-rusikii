@@ -105,7 +105,17 @@ const flashCardCategories = {
     { "russian": "в октябре", "english": "in October" },
     { "russian": "в ноябре", "english": "in November" },
     { "russian": "в декабре", "english": "in December" }
-]
+  ],
+  climates: [
+    { "russian": "солнечно", "english": "sunny" },
+    { "russian": "снежно", "english": "snowy" },
+    { "russian": "дождливо", "english": "rainy" },
+    { "russian": "ветрено", "english": "windy" },
+    { "russian": "светит солнце", "english": "the sun is shining" },
+    { "russian": "идёт снег", "english": "it is snowing" },
+    { "russian": "идёт дождь", "english": "it is raining" },
+    { "russian": "дует ветер", "english": "the wind is blowing" }
+  ]
 }
 
 const categories = Object.keys(flashCardCategories)
